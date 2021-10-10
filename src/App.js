@@ -1,7 +1,12 @@
 import React from "react";
+import Map from "./pages/Map";
 
 function App() {
-  return <div className="App">하잉</div>;
+  return (
+    <div className="App">
+      <Map />
+    </div>
+  );
 }
 
 export default App;
